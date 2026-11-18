@@ -680,7 +680,6 @@ function zeichneHangar(): void {
     if (laeuftGefuehrteLieferung()) {
         screen.fillRect(0, 98, 160, 10, FARBE_BLAU)
         screen.fillRect(0, 98, 6, 10, FARBE_GELB)
-        druckeSpielText(Texte.t(286), 1, 101, FARBE_HINTERGRUND)
         druckeSpielText(kuerzeText(tutorialStufeName(), 25), 8, 101, FARBE_GELB)
     }
     if (bestaetigungOffen) {
